@@ -1,0 +1,18 @@
+# 原始照片（隐私，不进仓库）
+宝宝照片/
+
+# 音频候选
+assets/audio/candidates/
+
+# 字体源文件（17MB 整字库，网页只用裁剪后的 woff2）
+tools/fonts/*.ttf
+
+# 系统 / Python
+__pycache__/
+*.pyc
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# 预览截图
+预览图/

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>背景音乐试听 · 王清许周岁宴</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 28px 18px 48px;
+    background: radial-gradient(circle at 50% 0%, #2c5743 0%, #1e3d2f 55%, #162b22 100%);
+    color: #f3ecd8;
+    font-family: "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  .wrap { max-width: 560px; margin: 0 auto; }
+  h1 { margin: 0 0 6px; font-size: 21px; font-weight: 600; letter-spacing: .06em; }
+  .sub { margin: 0 0 26px; font-size: 13px; line-height: 1.7; color: rgba(243,236,216,.62); }
+  .card {
+    background: rgba(247,242,231,.07);
+    border: 1px solid rgba(217,179,108,.32);
+    border-radius: 14px;
+    padding: 15px 15px 12px;
+    margin-bottom: 14px;
+  }
+  .row { display: flex; align-items: baseline; gap: 10px; margin-bottom: 3px; }
+  .no {
+    flex: none; width: 22px; height: 22px; border-radius: 50%;
+    background: #d9b36c; color: #1e3d2f;
+    font-size: 12px; font-weight: 700; line-height: 22px; text-align: center;
+  }
+  .name { font-size: 16px; font-weight: 600; color: #f7ecd0; }
+  .desc { margin: 0 0 11px 32px; font-size: 12.5px; line-height: 1.7; color: rgba(243,236,216,.66); }
+  audio { width: 100%; height: 40px; display: block; }
+  .tip { margin: 26px 0 0; font-size: 12px; line-height: 1.8; color: rgba(243,236,216,.45); }
+  .pick { margin-top: 4px; font-size: 12px; color: #d9b36c; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>背景音乐 · 三选一</h1>
+  <p class="sub">点播放键试听，选好后告诉我编号即可（手机上请先关掉静音键、把音量调大）。</p>
+
+  <div class="card">
+    <div class="row"><span class="no">1</span><span class="name">Carefree</span></div>
+    <p class="desc">尤克里里 + 钢片琴，轻快明亮，最欢快治愈</p>
+    <audio controls preload="none" src="../assets/audio/candidates/carefree-96.mp3"></audio>
+    <p class="pick">当前使用的就是这首</p>
+  </div>
+
+  <div class="card">
+    <div class="row"><span class="no">2</span><span class="name">Teddy Bear Waltz</span></div>
+    <p class="desc">八音盒华尔兹，温柔旋转感，最贴周岁氛围</p>
+    <audio controls preload="none" src="../assets/audio/candidates/teddy-96.mp3"></audio>
+  </div>
+
+  <div class="card">
+    <div class="row"><span class="no">3</span><span class="name">Wholesome</span></div>
+    <p class="desc">舒缓钢琴与弦乐，安静温暖，适合偏安静的宴会</p>
+    <audio controls preload="none" src="../assets/audio/candidates/wholesome-96.mp3"></audio>
+  </div>
+
+  <p class="tip">试听用的是 96kbps 压缩版，正式页面同样是这个音质；三首都是可免费商用的 CC BY 4.0 音乐，页脚会标注作者。</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f7d7e1">
+<title>背景音乐试听 · 王清许周岁宴</title>
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  body {
+    margin: 0;
+    padding: 28px 18px calc(28px + env(safe-area-inset-bottom));
+    min-height: 100vh;
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
+    color: #5a1f33;
+    background:
+      radial-gradient(90% 60% at 50% 0%, #fff 0%, rgba(255,255,255,0) 60%),
+      linear-gradient(180deg, #fff4f7 0%, #fbe3ec 58%, #f4cedb 100%);
+    -webkit-font-smoothing: antialiased;
+  }
+  h1 {
+    margin: 0 0 6px;
+    text-align: center;
+    font-family: "KaiTi", "STKaiti", serif;
+    font-weight: 500;
+    font-size: 26px;
+    letter-spacing: .14em;
+  }
+  .sub {
+    margin: 0 0 22px;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: .16em;
+    color: #a06f80;
+  }
+  .card {
+    max-width: 420px;
+    margin: 0 auto 14px;
+    padding: 16px 16px 14px;
+    border-radius: 18px;
+    background: rgba(255, 252, 250, .82);
+    border: 1px solid rgba(207, 162, 126, .34);
+    box-shadow: 0 14px 34px -20px rgba(120, 40, 66, .45);
+  }
+  .name {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 4px;
+  }
+  .name b { font-size: 15px; font-weight: 600; letter-spacing: .04em; }
+  .name span { font-size: 11px; color: #b06a7f; letter-spacing: .08em; }
+  .desc { margin: 0 0 10px; font-size: 12px; line-height: 1.6; color: #8a5a6b; }
+  audio { width: 100%; height: 38px; }
+  .tip {
+    max-width: 420px;
+    margin: 22px auto 0;
+    padding: 12px 14px;
+    border-radius: 14px;
+    border: 1px dashed rgba(190, 138, 94, .45);
+    background: rgba(255, 250, 246, .6);
+    font-size: 12px;
+    line-height: 1.8;
+    color: #8a5a6b;
+  }
+  .tip b { color: #a84463; }
+</style>
+</head>
+<body>
+  <h1>背景音乐试听</h1>
+  <p class="sub">王清许 · 周岁宴</p>
+
+  <div class="card">
+    <div class="name"><b>① Teddy Bear Waltz</b><span>八音盒华尔兹</span></div>
+    <p class="desc">温柔、甜，像抱着小熊慢慢转圈。最贴周岁宴的氛围，也是当前默认。</p>
+    <audio controls preload="none" src="../assets/audio/candidates/teddy-96.mp3"></audio>
+  </div>
+
+  <div class="card">
+    <div class="name"><b>② Carefree</b><span>轻快尤克里里</span></div>
+    <p class="desc">明亮、轻快、治愈，像晴天里的小跳步。想让气氛更活泼可以选它。</p>
+    <audio controls preload="none" src="../assets/audio/candidates/carefree-96.mp3"></audio>
+  </div>
+
+  <div class="card">
+    <div class="name"><b>③ Wholesome</b><span>温暖钢琴</span></div>
+    <p class="desc">安静、柔软、有点电影感。偏抒情，适合温柔不喧闹的调子。</p>
+    <audio controls preload="none" src="../assets/audio/candidates/wholesome-96.mp3"></audio>
+  </div>
+
+  <p class="tip">三首都免版权（Kevin MacLeod，CC BY 4.0），页脚会自动署名。<br>
+  听完<b>告诉我选第几首</b>即可，我替换好再给你新链接。<br>
+  若播放器点不动，请用手机浏览器（Safari / Chrome）打开本页。</p>
+</body>
+</html>

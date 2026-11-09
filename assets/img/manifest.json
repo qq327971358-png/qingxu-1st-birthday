@@ -1,0 +1,48 @@
+{
+  "photos": [
+    {
+      "src": "photo-01.jpg",
+      "label": "刚出生"
+    },
+    {
+      "src": "photo-02.jpg",
+      "label": "1个月"
+    },
+    {
+      "src": "photo-03.jpg",
+      "label": "2个月"
+    },
+    {
+      "src": "photo-04.jpg",
+      "label": "3个月"
+    },
+    {
+      "src": "photo-05.jpg",
+      "label": "4个月"
+    },
+    {
+      "src": "photo-06.jpg",
+      "label": "5个月"
+    },
+    {
+      "src": "photo-07.jpg",
+      "label": "6个月"
+    },
+    {
+      "src": "photo-08.jpg",
+      "label": "7个月"
+    },
+    {
+      "src": "photo-09.jpg",
+      "label": "8个月"
+    },
+    {
+      "src": "photo-10.jpg",
+      "label": "9个月"
+    },
+    {
+      "src": "photo-11.jpg",
+      "label": "10个月"
+    }
+  ]
+}
